@@ -8,7 +8,11 @@ namespace Grocery.App.ViewModels
         string title = "";
 
         public virtual void Load() { }
-        public virtual void OnAppearing() { }
+
+        public virtual void OnAppearing()
+        {
+             
+        }
         public virtual void OnDisappearing() { }
     }
 }
